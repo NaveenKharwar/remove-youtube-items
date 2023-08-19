@@ -25,7 +25,7 @@ Click the extension icon in the browser toolbar and it will start removing all t
 However, if you want to change the text to find the elements, follow the below steps:
 
 1. Open the content.js.
-2. Go to line number 6 and replace "Elvish Yadav" with something else.
+2. Go to line number 14 and replace "Elvish Yadav" with something else.
 3. That's it!
 
 ## Contributions
