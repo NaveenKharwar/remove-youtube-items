@@ -1,6 +1,6 @@
 # Remove YouTube Items Chrome Extension
 
-The "Remove YouTube Items" Chrome extension allows users to remove specific content from YouTube pages. Users can input the text they want to remove, and the extension will dynamically remove elements containing that text.
+The "Remove YouTube Items" Chrome extension allows users to blur specific content from YouTube pages preventing them to improving their feed.
 
 ## Installation
 

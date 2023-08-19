@@ -1,12 +1,17 @@
 {
   "manifest_version": 2,
   "name": "Remove YouTube Items",
-  "description": "A Chrome extension to remove YouTube items with specific content.",
+  "description": "A Chrome extension to blur YouTube items with specific content.",
   "version": "1.0",
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
     {
-      "matches": ["*://www.youtube.com/*"],
+      "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
   ]
