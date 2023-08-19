@@ -1,8 +1,10 @@
 // Function to blur the elements
 function blurElements(elements) {
 	elements.forEach(div => {
-	  div.style.filter = 'blur(5px)';
-	  div.style.pointerEvents = 'none';
+	//   div.style.filter = 'blur(5px)';
+	//   div.style.pointerEvents = 'none';
+	// Feel free to change the styles
+	  div.style.display = 'none';
 	});
   }
 
