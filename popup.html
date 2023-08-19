@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <style>
     body {
-      width: 200px;
+      min-width: min-content;
+    }
+    .container{
+      display: flex;
+      align-items: center;
     }
   </style>
+  <script src="./content.js" defer></script>
 </head>
+
 <body>
-  <p>It is already working!</p>
+  <p>It is already working! <b>or</b> you can add custom</p>
+  <div class="container">
+    <input type="text" name="name" id="filter_text" placeholder="Enter name">
+    <button class="btn" id="filter">filter</button>
+  </div>
 </body>
+
 </html>

@@ -1,3 +1,13 @@
+
+let filter_btn = document.getElementById("filter")
+
+let filter_item = "Elvish Yadav"
+
+filter_btn.addEventListener("click", () => {
+  let filter_text = document.getElementById("filter_text").value;
+  filter_item = filter_text;
+})
+
 function hideElements(elements) {
   elements.forEach((element) => {
     // Customize the style to hide elements
@@ -13,7 +23,7 @@ const observer = new MutationObserver((mutations) => {
 
   const filteredElements = Array.from(targetElements).filter((element) => {
     // Customize the condition to filter elements
-    return element.textContent.includes("Elvish Yadav");
+    return element.textContent.includes(filter_item);
   });
 
   hideElements(filteredElements);
@@ -29,7 +39,7 @@ const initialElements = Array.from(
   )
 ).filter((element) => {
   // Customize the condition for initial filtering
-  return element.textContent.includes("Elvish Yadav");
+  return element.textContent.includes(filter_item);
 });
 
 hideElements(initialElements);
